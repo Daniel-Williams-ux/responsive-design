@@ -10,7 +10,7 @@ body {
   background-color: blue;
   padding: 50px;
   /*width: 900px; avoid this*/
-  width: 80%;/*use this of any % of your choice*/
+  width: 100%;/*use this of any % of your choice*/
   margin: 0 auto;
 }
 
