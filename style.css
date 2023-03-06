@@ -12,6 +12,7 @@ body {
   /*width: 900px; avoid this*/
   width: 100%;/*use this of any % of your choice*/
   margin: 0 auto;
+  /*overflow: hidden;*/
 }
 
 .child {
@@ -19,4 +20,6 @@ body {
   /*normally I wouldn't include
   height. It's just to get us started*/
   height: 250px;
+  width: 80%;
+  color: white;
 }
