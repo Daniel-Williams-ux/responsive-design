@@ -8,10 +8,14 @@ body {
 }
 
 .container {
-  background-color: blue;
+  background: #23424a;
   color: white;
-  /*height: 300px; by turning off the height,it's responsive;height creates more space. Ifyou want that use padding in emfor responsiveness*/
   width: 80%;
+  max-width: 750px;/*It's always 80% as long as it is 750px*/
   margin: 0 auto;
-  padding: 5em;/*16 * 5 = 80px*/
+  padding: 50px 50px 150px 50px;
+}
+
+.inner-container {
+   width: 50%;
 }
