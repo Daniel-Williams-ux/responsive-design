@@ -19,6 +19,19 @@ h1 {
 /*   border: 2px solid yellow; */
 }
 
+.row {
+  /*display flex => flex container*/
+  display: flex;
+  /*default is row*/
+  flex-direction: row;
+}
+
+.col {
+  margin: 10px;
+  width: 100%;
+  background: limegreen;
+}
+
 .hero {
   background-color: #23424A;
   color: #fff;
