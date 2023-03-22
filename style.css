@@ -24,12 +24,17 @@ h1 {
   display: flex;
   /*default is row*/
   flex-direction: row;
+  /*gap: 100px; only supported in firefox right now. To check what is supported search 'can I use' You can use combinator*/
 }
 
 .col {
-  margin: 10px;
   width: 100%;
-  background: limegreen;
+}
+
+/*combinator*/
+.col + .col {
+background: green;
+margin-left: 20px;
 }
 
 .hero {
