@@ -33,18 +33,38 @@ h1 {
 
 /*combinator*/
 .col + .col {
-background: green;
+/* background: green; */
 margin-left: 20px;
 }
 
 .hero {
   background-color: #23424A;
   color: #fff;
-  padding: 100px 0; /*avoid this.Use container*/
+  /*padding: 100px 0; avoid this.Use container*/
 }
 
 .hero p {
   margin-bottom: 3em;/* relative to the font-size*/
+}
+
+.accent-text {
+  color: purple;
+}
+
+.three-col {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.three-col h2 {
+  color: purple;
+}
+
+.two-col {
+  background-color: #23424A;
+  color: #fff;
+  padding: 3em 0;
+  text-align: center;
 }
 
 .hero__text {
